@@ -10,18 +10,8 @@
         <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
         <attr name="template" boolvalue="true"/>
     </fileobject>
-    <fileobject name="index.html.html">
+    <fileobject name="html.html">
         <attr name="displayName" stringvalue="Foundation HTML"/>
-        <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
-        <attr name="template" boolvalue="true"/>
-    </fileobject>
-    <fileobject name="index.jsp.jsp">
-        <attr name="displayName" stringvalue="Foundation JSP"/>
-        <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
-        <attr name="template" boolvalue="true"/>
-    </fileobject>
-    <fileobject name="index.xhtml.xhtml">
-        <attr name="displayName" stringvalue="Foundation XHTML"/>
         <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
         <attr name="template" boolvalue="true"/>
     </fileobject>
@@ -29,7 +19,17 @@
         <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
         <attr name="template" boolvalue="true"/>
     </fileobject>
+    <fileobject name="jsp.jsp">
+        <attr name="displayName" stringvalue="Foundation JSP"/>
+        <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+        <attr name="template" boolvalue="true"/>
+    </fileobject>
     <fileobject name="what-input.js">
+        <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+        <attr name="template" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="xhtml.xhtml">
+        <attr name="displayName" stringvalue="Foundation XHTML"/>
         <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
         <attr name="template" boolvalue="true"/>
     </fileobject>
