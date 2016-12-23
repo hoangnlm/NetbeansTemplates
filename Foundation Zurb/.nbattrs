@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="foundation.min.css">
+        <attr name="displayName" stringvalue="foundation.min.css"/>
+        <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+        <attr name="template" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="foundation.min.js">
+        <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+        <attr name="template" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="index.html.html">
+        <attr name="displayName" stringvalue="Foundation HTML"/>
+        <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+        <attr name="template" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="index.jsp.jsp">
+        <attr name="displayName" stringvalue="Foundation JSP"/>
+        <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+        <attr name="template" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="index.xhtml.xhtml">
+        <attr name="displayName" stringvalue="Foundation XHTML"/>
+        <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+        <attr name="template" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="jquery-2.2.4.min.js">
+        <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+        <attr name="template" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="what-input.js">
+        <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+        <attr name="template" boolvalue="true"/>
+    </fileobject>
+</attributes>

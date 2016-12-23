@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="IDao.java">
+        <attr name="displayName" stringvalue="IDao.java"/>
+        <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+        <attr name="requireProject" boolvalue="true"/>
+        <attr name="template" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="MySql.java">
+        <attr name="displayName" stringvalue="MySql.java"/>
+        <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+        <attr name="originalFile" stringvalue="DBConnect.java"/>
+        <attr name="template" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="SqlServer.java">
+        <attr name="displayName" stringvalue="SqlServer.java"/>
+        <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+        <attr name="originalFile" stringvalue="DBConnect.java"/>
+        <attr name="template" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="UserDao.java">
+        <attr name="displayName" stringvalue="UserDao.java"/>
+        <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+        <attr name="requireProject" boolvalue="true"/>
+        <attr name="template" boolvalue="true"/>
+    </fileobject>
+</attributes>
