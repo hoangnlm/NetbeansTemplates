@@ -29,7 +29,7 @@ public class ${name} {
      * @throws Exception
      */
     public Connection getConnection() throws Exception {
-        Class.forName("com.mysql.jdbc.jdbc2.optional.MysqlDataSource");
+        Class.forName("com.mysql.jdbc.Driver");
         return DriverManager.getConnection(getUrl(), username, password);
     }
 

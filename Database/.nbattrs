@@ -20,7 +20,7 @@
         <attr name="template" boolvalue="true"/>
     </fileobject>
     <fileobject name="UserDao.java">
-        <attr name="displayName" stringvalue="UserDao.java"/>
+        <attr name="displayName" stringvalue="UserDaoImpl.java"/>
         <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
         <attr name="requireProject" boolvalue="true"/>
         <attr name="template" boolvalue="true"/>

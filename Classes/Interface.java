@@ -3,10 +3,10 @@ package ${package};
 
 </#if>
 /**
- *
+ * 
  * @created on ${date}, ${time}
  * @author ${user}
  */
-public class ${name} {
+public interface ${name} {
 
 }

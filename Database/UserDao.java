@@ -15,10 +15,11 @@ import java.util.logging.Logger;
  * @created on ${date}, ${time}
  * @author ${user}
  */
-public class ${name} {
+public class ${name}  implements IDao<User> {
 
     private DbConnect db = new DbConnect();
 
+    @Override
     public List<User> get() {
         List<User> list = new ArrayList<>();
         String sql = "select * from user";
@@ -40,6 +41,7 @@ public class ${name} {
         return list;
     }
 
+    @Override
     public long insert(User model) {
         String sql = "insert into user(username,password,fullname,level) values(?,?,?,?)";
         try (
@@ -58,6 +60,7 @@ public class ${name} {
         return -1;
     }
 
+    @Override
     public boolean update(User model) {
         String sql = "update user set username=?,password=?,fullname=?,level=? where id=?";
         try (
@@ -76,6 +79,7 @@ public class ${name} {
         return false;
     }
 
+    @Override
     public boolean delete(User model) {
         String sql = "delete from user where id=?";
         try (
